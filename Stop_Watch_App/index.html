@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS and JS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+    <!-- Title -->
+    <title>Stopwatch App</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+    <!-- title -->
+    <div class="container-fluid">
+        <div id="header">Stopwatch</div>
+    
+        <!-- lap time -->
+        <div id="lap"><span id="lapminute">00</span>:<span id="lapsecond">00</span>:<span id="lapcentisecond">00</span></div>
+        <!-- Time -->
+        <div id="time"><span id="timeminute">00</span>:<span id="timesecond">00</span>:<span id="timecentiseconds">00</span></div>
+        <!-- Controlls -->
+        <div id="controllsContainer">
+            <div>
+                <div id="startButton" class="control">Start</div>
+                <div id="stopButton" class="control">Stop</div>
+                <div id="resumeButton" class="control">Resume</div>
+            </div>
+            <div >
+                <div id="lapButton" class="control">Lap</div>
+                <div id="resetButton" class="control">Reset</div>
+            </div>
+        </div>
+        <!-- Laps -->
+        <div id="laps"></div>
+    </div>
+    <script src="stopwatch.js"></script>
+</body>
+</html>

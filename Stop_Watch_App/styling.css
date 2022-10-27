@@ -1,0 +1,94 @@
+/*Style Body Element:-------------Background--to cover__________Font-family*/
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+body{
+    background: url(images/tree.jpg) center center fixed;
+    background-size: cover;
+    font-family: 'Arvo', serif;
+    color: white;
+}
+/*header*/
+#header{
+    text-align: center;
+    font-size: 7vw;
+    color: white;
+}
+/*Lap*/
+#lap{
+    text-align: right;
+    font-size: 25px;
+}
+/*Time*/
+#time{
+    text-align: center;
+    font-size: 10vw;
+}
+/*Buttons*/
+#controllsContainer{
+    display: flex;
+    margin-bottom: 20px;
+}
+.col-sm-2 .control{
+    padding: 12% 0;
+}
+.col-sm-1 .control{
+    padding: 24% 0;
+}
+
+.control {
+    background-color: #d7a04e;
+    border-radius: 100%;
+    height: 13vw;
+    width: 13vw;
+    text-align: center;
+    font-size: 2.8vw;
+    cursor: pointer;
+    padding-top: 40px;
+    margin-left: 24vw;
+    margin-top: 20px;
+}
+.control:active{
+    color: #d7a04e;
+    background-color: white;
+}
+/*Laps*/
+#laps{
+    max-height: 270px;
+    overflow-y: scroll;
+}
+
+.lap{
+    height: 40px;
+    border-bottom: 1px solid white;
+    margin: 15px;
+}
+.laptimetitle{
+    font-size: 1.5em;
+    float: left;
+}
+.lapTime{
+    float: right;
+    font-size: 1.8em;
+}
+@media (max-width:780px) {
+    .control {
+        padding-top: 13px;
+        font-size: 18px;
+    }
+    #header {
+        text-align: center;
+        font-size: 9vw;
+        color: white;
+        margin-bottom: 30px;
+    }
+    #lap {
+        text-align: right;
+        font-size: 20px;
+    }
+}
+@media (min-width:900px) {
+    .control {
+        height: 10vw;
+        width: 10vw;
+        font-size: 2vw;
+    }
+}
