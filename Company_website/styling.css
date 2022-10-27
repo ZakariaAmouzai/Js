@@ -1,0 +1,95 @@
+/*Style Body Element:-------------Background--to cover__________Font-family*/
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+body{
+    background: url(https://freenaturestock.com/wp-content/uploads/freenaturestock-282-1024x683.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arvo', serif;
+}
+
+/*Navbar and brand:---------------Colors_____Hovers_____Placing*/
+.logo{
+    height: 37px;
+    width: 37px;
+    padding-top: 3px;
+    margin-right: 40px;
+}
+.navbar-toggle {
+    margin-top: 15px;
+}
+
+.navbar-toggle {
+    padding-top: 10px;
+}
+
+.navbar-inverse{
+    background: rgba(0, 0, 0, 0.5);
+}
+.nav li{
+    color: white;
+    font-size: 17px;
+    margin-right:37px;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+
+.nav li:hover{
+    cursor: pointer;
+    border-bottom: 1px solid #00ffb8;
+}
+/*Header----------------Jumbotron____Text-align_____padding*/
+.jumbotron{
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    margin: 0;
+    padding: 15px;
+    letter-spacing: 2.5px;
+}
+.container{
+    max-width: 10000px;
+}
+
+/*ic ons and texts-----------------Color_______Grid____bootstrap*/
+.bodyimage{
+    height: 100px;
+}
+.col-md-4{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+.icons p{
+    font-size: 15px;
+}
+/*Button--------------background-color______Hover_____Color*/
+.contact{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.btn{
+    background-color: rgba(0, 255, 184, 0.5);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    padding: 10px 70px;
+    letter-spacing: 1.3px;
+}
+.btn:hover{
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+/*Media Query*/
+    /*________Navbar and brand*/
+    /*________Header*/
+    /*________Icons and texts*/
+    /*________Button*/
+
+/*Footer*/
+.footer{
+    background: rgba(0, 0, 0, 0.5);
+    color: grey;
+    font-size: 15px;
+    padding: 10px 0 6px 0;
+}
